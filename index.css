@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,300&family=Inter:wght@500&family=Lato:ital@0;1&family=Playfair+Display:wght@500&family=Raleway:wght@100;300;600&family=Roboto:ital,wght@0,300;0,400;0,500;1,100&family=Space+Grotesk:wght@700&display=swap");
+
+/* ---- font --- */
+
+.font1 {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+/* ---- scroll bar color start ---- */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #bababa; /* Change this to the desired color */
+}
+.section-01 ::-webkit-scrollbar-thumb {
+  background-color: #007bff; /* Change this to the desired color */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Change this to the desired color */
+}
+
+/* ---- scroll bar color End ---- */
+
+/* ------------ main body container ------- */
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.h-10 {
+  height: 25px !important;
+}
+
+.progress {
+  background-color: #c9d9f1 !important;
+}
+.navbar-top-bg {
+  background-color: #b5c7e3;
+}
+.h6 {
+  color: #000 !important;
+  font-size: 14px !important;
+  margin-top: 7px !important;
+}
+
+.button-top-nav {
+  background-color: #9cb9e6;
+  position: absolute !important;
+  z-index: 1000 !important;
+  right: -250px;
+
+  border: none !important   ;
+  border-radius: 10%;
+}
+
+.parent {
+  height: 95vh;
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin-left: 5px !important;
+}
+
+.card {
+  width: 370px !important;
+  margin-top: 8px !important;
+}
+
+.section-01 .scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: unset !important;
+}
+
+/* ====== card design ========= */
+
+.avata-image {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.avata-image-sm {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.avata-image-round-sm {
+  width: 18px;
+  height: 18px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+p {
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000a7;
+}
+
+/* ======= modal ==== */
+.modal {
+  width: 60% !important;
+  height: 60vh;
+  margin: 0 auto;
+  background-color: #728eab;
+}
+.pointer {
+  cursor: pointer;
+}
